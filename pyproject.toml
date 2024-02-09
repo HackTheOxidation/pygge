@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pygge"
+version = "0.1.0"
+description = "An interpreter for the hygge toy language"
+authors = ["HackTheOxidation <tomas.hagenau@protonmail.ch>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lark = "^1.1.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
